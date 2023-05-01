@@ -4,10 +4,10 @@ import TeamController from "../controllers/TeamController";
 
 const routes = Router();
 
-routes.get('/team');
-routes.get('/team/:id');
+routes.get('/team',TeamController.findTeams);
+routes.get('/team/:termo',TeamController.findTeamByTermo);
 routes.post('/team',TeamController.createTeam);
-routes.put('/team');
-routes.delete('/team');
+routes.put('/team',TeamController.updateTeam);
+routes.delete('/team',TeamController.deleteTeam);
 
 export default routes
