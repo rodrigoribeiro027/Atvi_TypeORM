@@ -1,0 +1,199 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "TypeORM",
+    "dateExported": "2023-05-03T23:29:05.973Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "5707d28b-4b25-44fd-8713-8cd779b48ac2",
+            "name": "Team",
+            "containerId": "",
+            "created": "2023-05-01T00:07:17.136Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "e03c7c6a-1be4-466e-b814-3b50be5966cb",
+            "name": "Matches",
+            "containerId": "",
+            "created": "2023-05-01T15:31:12.965Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "0f3962a6-7d0c-49c0-a0e1-8c4e8fb60a78",
+            "colId": "90702609-4e57-441d-9177-8f594f2fe6da",
+            "containerId": "5707d28b-4b25-44fd-8713-8cd779b48ac2",
+            "name": "Delete",
+            "url": "http://localhost:3004/team",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2023-05-01T00:07:32.271Z",
+            "modified": "2023-05-01T00:45:29.355Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":5\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f695ef5d-b500-4740-ac9f-484a9cf76174",
+            "colId": "90702609-4e57-441d-9177-8f594f2fe6da",
+            "containerId": "e03c7c6a-1be4-466e-b814-3b50be5966cb",
+            "name": "Delete",
+            "url": "http://localhost:3004/team",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2023-05-01T15:31:12.965Z",
+            "modified": "2023-05-01T15:31:12.965Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":5\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "86800dbd-f39c-4424-a711-d2620d444d56",
+            "colId": "90702609-4e57-441d-9177-8f594f2fe6da",
+            "containerId": "5707d28b-4b25-44fd-8713-8cd779b48ac2",
+            "name": "Update",
+            "url": "http://localhost:3004/team",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-05-01T00:07:37.967Z",
+            "modified": "2023-05-01T01:16:21.235Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n \"id\":\"6\",\n \"name\":\"Ponte Preta\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "29f155cb-f9ff-41f8-8f03-88dba913fd01",
+            "colId": "90702609-4e57-441d-9177-8f594f2fe6da",
+            "containerId": "e03c7c6a-1be4-466e-b814-3b50be5966cb",
+            "name": "Update",
+            "url": "http://localhost:3004/team",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-05-01T15:31:12.966Z",
+            "modified": "2023-05-01T15:31:12.965Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n \"id\":\"6\",\n \"name\":\"Ponte Preta\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5b6bbaa4-8603-4e7b-b7c1-51d18d6df5d8",
+            "colId": "90702609-4e57-441d-9177-8f594f2fe6da",
+            "containerId": "5707d28b-4b25-44fd-8713-8cd779b48ac2",
+            "name": "Get Termo",
+            "url": "http://localhost:3004/team/f",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-05-01T00:08:14.287Z",
+            "modified": "2023-05-01T01:02:43.956Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2bbae6b4-9dfc-476e-bcac-0fb5813eec2e",
+            "colId": "90702609-4e57-441d-9177-8f594f2fe6da",
+            "containerId": "5707d28b-4b25-44fd-8713-8cd779b48ac2",
+            "name": "GET",
+            "url": "http://localhost:3004/team",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-05-01T00:08:28.720Z",
+            "modified": "2023-05-01T00:51:44.749Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b5483b72-bce8-4011-9f26-9ba714c5a48b",
+            "colId": "90702609-4e57-441d-9177-8f594f2fe6da",
+            "containerId": "e03c7c6a-1be4-466e-b814-3b50be5966cb",
+            "name": "GET",
+            "url": "http://localhost:3004/match",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-05-01T15:31:12.968Z",
+            "modified": "2023-05-01T22:48:28.355Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n \"limit\":\"1\",\n \"offset\":\"1\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4affcbaa-c88b-4b43-bfdb-2d1bee8b5b25",
+            "colId": "90702609-4e57-441d-9177-8f594f2fe6da",
+            "containerId": "e03c7c6a-1be4-466e-b814-3b50be5966cb",
+            "name": "GET BY ID",
+            "url": "http://localhost:3004/match/8",
+            "method": "GET",
+            "sortNum": 55000,
+            "created": "2023-05-01T16:59:58.449Z",
+            "modified": "2023-05-01T17:01:51.183Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "923825ba-0110-4cf7-b2ea-eccec97287d9",
+            "colId": "90702609-4e57-441d-9177-8f594f2fe6da",
+            "containerId": "5707d28b-4b25-44fd-8713-8cd779b48ac2",
+            "name": "Create Team",
+            "url": "http://localhost:3004/team",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-05-01T00:32:37.781Z",
+            "modified": "2023-05-01T00:52:00.930Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Gremio\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f6f7e2ee-3f35-4444-840b-efee6ecb03d9",
+            "colId": "90702609-4e57-441d-9177-8f594f2fe6da",
+            "containerId": "e03c7c6a-1be4-466e-b814-3b50be5966cb",
+            "name": "Create Team",
+            "url": "http://localhost:3004/match",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-05-01T15:31:12.969Z",
+            "modified": "2023-05-01T16:38:31.389Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"idhost\":\"8\",\n  \"idvisitor\":\"10\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
